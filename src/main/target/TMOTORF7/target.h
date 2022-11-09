@@ -121,6 +121,10 @@
 #define I2C2_SDA                PB11
 #define I2C_DEVICE              (I2CDEV_2)
 
+#define USE_RANGEFINDER
+//#define USE_RANGEFINDER_HCSR04
+#define USE_RANGEFINDER_TF
+
 #define USE_ADC
 #define VBAT_ADC_PIN            PC1
 #define CURRENT_METER_ADC_PIN   PC2
